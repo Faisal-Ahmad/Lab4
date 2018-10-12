@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+		<!--Styling -->
+		<style>
+			body
+			{
+				background-color:rgb(75, 160, 190);
+			}
+			h1{
+				text-align:center;
+				background-color: azure;
+				color: darkcyan;
+			}
+			a{
+				color:black;
+				margin:15px;
+			}
+			table
+			{
+				width:50%;
+			}
+			th{
+
+				background-color:rgb(40, 184, 255);
+				color: darkgreen;
+				font-size:40px;
+			}
+			td{
+				border:1px solid black;
+				font-size:22px;
+				padding:15px;
+			}
+			span{
+				font-size:25px;
+			}
+		</style>
+		<!--Title Bar -->
+		<title>
+			Contact page
+		</title>
+		<hr/>
+		<!--Menu Bar -->
+		<h2>
+			<a href="introduction.html">Introduction</a> | 
+			<a href="education.html">Education</a> | 
+			<a href="project.html">Project</a> | 
+			<a href="contact.html">Contact</a> |
+			<a href="register.php">Register</a>
+		</h2>
+		<hr/>
+</head>
+<body>
+<br/><br/>
+	<!--Table 1 start -->
+	<table align="center">	
+		<!--Table 1 Row 1 -->
+		<tr>
+		<!--Table Heading -->
+			<th>
+				For Contact Plese Fill All Information
+			</th>
+		
+		</tr>
+		<!--Table 1 Row 2 -->
+		<tr>
+			<td>
+			<br/>
+				<!--Table 2 Start -->
+				<table align="center" style="width:0%;">
+					<!--Table 2 Row 1 -->
+					<tr>
+						<td style="padding:10px">
+						<br/>
+							<!--Form Start-->
+							<form name="contact_form" method="get" action="check.html">
+								<span>
+									<b>
+										Name : 
+									</b>
+								</span>
+								<!--Name Input-->
+								<input type="text" name="un" size="50px"/><br/><br/>
+								<span>
+									<b>
+										Email : 
+									</b>
+								</span>
+								<!--Email Input-->
+								<input type="text" name="ue" size="50px"/><br/><br/>
+								<span>
+									<b>
+										Phone : 
+									</b>
+								</span>
+								<!--Phone Input-->
+								<input type="text" name="up" size="50px"/><br/><br/>
+								<span>
+									<b>
+										Gender : 
+									</b>
+								</span>
+								<!--Gender Radio Input-->
+								<input type="radio" name="gm"/> Male
+								<input type="radio" name="gm"/> Female
+								<br/><br/>
+								<span>
+									<b>
+										Division : 
+									</b>
+								</span>
+								<!--Division Input by Drop Down-->
+								<select name="div">
+									<option >Dhaka</option>
+									<option >Khulna</option>
+									<option>Chittagong</option>
+									<option>Rajshahi </option>
+									<option>Rangpur </option>
+									<option>Sylhet </option>
+								</select>
+								<br/><br/>
+								<span>
+									<b>
+										Subject : 
+									</b>
+								</span>
+								<!--Subject Input-->
+								<textarea rows="4" cols="40px"></textarea><br/><br/>
+								<!--Buttons -->
+								<input type="submit" value="send" style="font-size:20px"/> 
+								<input type="reset" value="clear" style="font-size:20px"/>
+								
+							</form>
+							<br/>
+						</td>
+					</tr>
+				<table>
+				<p style="text-align:center;">
+				Thanks For visiting my website
+				</p>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
